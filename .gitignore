@@ -1,0 +1,17 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Ignore secret API keys
+jarvis_key/.secret_keys
+
+# Optional: ignore test scripts and virtual env
+test_key_loader.py
+.venv/
+
+# Ignore system/IDE files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+.vscode/
+
